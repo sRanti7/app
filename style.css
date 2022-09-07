@@ -1,0 +1,30 @@
+body {
+    background:black;
+}
+h1  {
+    color: aquamarine;
+}
+p,h2 {
+    text-align: center;
+    color:aquamarine;
+} 
+.encavesado{
+background-color: rgba(98, 0, 139, 0.938);  
+display:flex;
+justify-content:space-between;
+}
+.grid{
+display: flex;    
+flex-wrap:wrap ;
+justify-content: space-evenly;
+}
+.footer{
+    background-color:rgb(53, 51, 51);
+    display: flex;
+    justify-content: flex-end;
+}
+.grip{
+    display: inline-flex;    
+    flex-wrap:wrap ;
+    justify-content: space-around ;
+    }
